@@ -1,0 +1,12 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "description": "Minimal Node HTTP server for local PaaS smoke-testing (no Dockerfile — nixpacks/railpack detects Node via package.json).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
